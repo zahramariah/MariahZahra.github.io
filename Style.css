@@ -109,19 +109,26 @@ header .fa-bars{
 }
 
 .home{
-    display: flex;
     align-items: center;
     min-height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-top:87px;
+}
+
+.home1{
     background: url(task2/assessts/Images/cat2.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
-.home .Content{
-    max-width: 50rem;
+.home2{
+    background: url(task2/assessts/Images/cat1.jpg) no-repeat;
 }
 
-.home .Content h3{
+.home3{
+    background: url(task2/assessts/Images/cat2.jpg) no-repeat;
+}
+
+.home h3{
     font-size: 6rem;
     color: #ffffff;
     padding: 1rem 0;
@@ -173,7 +180,7 @@ header .fa-bars{
 
 .About .row .Video-container h3{
     position: absolute;
-    top: 50%; transform: translateY(-50%);
+    top: 5%; 
     font-size: 3rem;
     background: #fff;
     width: 100%;

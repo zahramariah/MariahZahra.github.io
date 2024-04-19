@@ -11,6 +11,9 @@
     <!--Custom css file link-->
     <link rel="stylesheet" href="Style.css">
 
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+
 </head>
 <body>
     <!--Header Section starts-->
@@ -27,7 +30,7 @@
             <a href="#about">About</a>
             <a href="#products">Products</a>
             <a href="#review">Review</a>
-            <a href="#Contact">Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
 
         <div class="Icons">
@@ -38,8 +41,45 @@
     </header>
     <!--Header Section ends-->
 
-    <!--home section starts-->
-    <section class="home" id="home">
+<!--home section-->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active home home1">
+            <h3>Formula Meow</h3>
+            <span>Awesome Merchandise for your Furry Friend !</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis animi culpa aut molestias perferendis quis optio minus repellat temporibus aspernatur nihil, magnam quas quaerat qui fugit dignissimos atque voluptas corporis.</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+          <div class="carousel-item home home2">
+            <h3>Formula Meow</h3>
+            <span>Awesome Merchandise for your Furry Friend !</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis animi culpa aut molestias perferendis quis optio minus repellat temporibus aspernatur nihil, magnam quas quaerat qui fugit dignissimos atque voluptas corporis.</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+          <div class="carousel-item home home3">
+            <h3>Formula Meow</h3>
+            <span>Awesome Merchandise for your Furry Friend !</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis animi culpa aut molestias perferendis quis optio minus repellat temporibus aspernatur nihil, magnam quas quaerat qui fugit dignissimos atque voluptas corporis.</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--home section ends-->
+
+   
+      <!--home section starts-->
+    
+    <!--Home section before carousel <section class="home" id="home">
         <div class="Content">
             <h3>Formula Meow</h3>
             <span>Awesome Merchandise for your Furry Friend !</span>
@@ -47,7 +87,8 @@
             <a href="#" class="btn">Shop Now</a>
         </div>
 
-    </section>
+    </section>-->
+
     <!--home section ends-->
 
     <!--About section starts-->
@@ -459,5 +500,10 @@
     </Section>
 
  <!--footer section ends-->
+
+
+
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </body>
 </html>
