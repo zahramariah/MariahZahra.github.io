@@ -104,56 +104,44 @@ header .fa-bars{
     border-radius: 5rem;
     padding: .5rem 1.5rem;
     cursor: pointer;
-    border: 1rem solid rgba(0,0,0.3);
+    border: .1rem solid rgba(0,0,0.3);
     display: none;
 }
 
 .home{
-    align-items: center;
+    display: flex;
+    align-items:center;
     min-height: 100vh;
-    background-size: cover !important;
-    background-position: center !important;
-    margin-top:87px;
+    background-size: cover;
+    background-position: center; 
+
 }
 
-.home1{
-    background: url(task2/assessts/Images/cat2.jpg) no-repeat;
+.home.content{
+    max-width: 50rem;
+    margin: 0 auto;
 }
 
-.home2{
-    background: url(task2/assessts/Images/cat1.jpg) no-repeat;
-}
-
-.home3{
-    background: url(task2/assessts/Images/cat2.jpg) no-repeat;
-}
-
-.home h3{
+.home .content h3{
     font-size: 6rem;
-    color: #ffffff;
-    padding: 1rem 0;
-    line-height: 1.5;
+    color: #333;
 }
 
-.home .Content span{
-    font-size: 3.5rem;
-    color: var(#ffffff);
-    padding: 1rem 0;
-    line-height: 1.5;
+.home .content span{
+  font-size: 3.5rem;
+  color: #fff;
+  padding: 1rem 0;
+  line-height: 1.5;
 }
 
-.home .Content span{
+.home .content p{
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #999;
     padding: 1rem 0;
     line-height: 1.5;
-}
+  }
 
-.home .Content p{
-    color: #fff;
-    font-size: x-small;
-    line-height: 1;
-}
+
 
 .About .row{
     display: flex;
@@ -257,7 +245,7 @@ header .fa-bars{
 .products .box-container .box .discount{
     position: absolute;
     top: 1rem; left: 1rem;
-    padding: 7rem 1rem;
+    padding: .7rem 1rem;
     font-size: 2rem;
     color: #0d0d48;
     background: rgba(255, 51, 153, .05);
@@ -438,7 +426,7 @@ header .fa-bars{
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .footer .box-container .box{
@@ -465,6 +453,7 @@ header .fa-bars{
 
 .footer .box-container .box img{
     margin-top: 1rem;
+  
 }
 
 .footer .credit{
@@ -477,6 +466,9 @@ header .fa-bars{
     border-top: .1rem solid rgba(0,0,0,.1);
 }
 
+.footer .credit span{
+    color: #0d0d48;
+}
 
 
 
@@ -556,7 +548,7 @@ header .fa-bars{
         position: absolute;
         top: 100%; left: 0; right: 0;
         background-color: #eee;
-        border-top: 1rem solid rgba(0,0,0.1);
+        border-top: .1rem solid rgba(0,0,0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
@@ -568,15 +560,15 @@ header .fa-bars{
         margin: 1.5rem;
         padding: 1.5rem;
         background: #fff;
-        border: 1rem solid rgba(0,0,0.1);
+        border: .1rem solid rgba(0,0,0,.1);
         display: block;
     }
 
-    .home .Content h3{
+    .home .content h3{
         font-size: 5rem;
     }
 
-    .home .Content span{
+    .home .content span{
         font-size: 2.5rem;
     }
 
