@@ -37,20 +37,24 @@ section{
     color: #0d0d48;
 }
 
-.btn{
+/*Button Styling Section*/
+
+.button{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
     background: #d28731;
     color: #ffffff;
-    padding: 3.5rem 9rem;
+    padding: 3.5rem 5rem;
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
-.btn:hover{
+.button:hover{
     background-color: #d4a6ee;
 }
+
+/* header styling section */
 
 header{
     position: fixed;
@@ -81,7 +85,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color: #0d0d48;
+    color: #aa89cb;
 }
 
 header .Icons a{
@@ -108,48 +112,57 @@ header .fa-bars{
     display: none;
 }
 
+/*Home Styling section*/
+
 .home{
     display: flex;
     align-items:center;
     min-height: 100vh;
     background-size: cover;
     background-position: center; 
-
+    position: relative;
+    width: 100%;
+    margin-top:50px;
+    padding:0 !important;
 }
 
-.home.content{
+.home .content{
     max-width: 50rem;
     margin: 0 auto;
+    position: absolute;
+    top:100px;
+    left:50px;
+    z-index:9;
 }
 
 .home .content h3{
     font-size: 6rem;
-    color: #333;
+    color: #d88826;
 }
 
 .home .content span{
   font-size: 3.5rem;
-  color: #fff;
-  padding: 1rem 0;
+  color: #aa89cb;
+  padding: 2rem 0;
   line-height: 1.5;
 }
 
 .home .content p{
     font-size: 1.5rem;
-    color: #999;
-    padding: 1rem 0;
+    color: #efefef;
+    padding: 2rem 0;
     line-height: 1.5;
   }
 
-
+  /*About Styling section*/
 
 .About .row{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
     flex-wrap: wrap;
     padding: 2rem 0;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 .About .row .Video-container{
@@ -163,7 +176,7 @@ header .fa-bars{
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     height: 100%;
-    object-fit: cover;
+    object-fit: center;
 }
 
 .About .row .Video-container h3{
@@ -182,7 +195,7 @@ header .fa-bars{
 }
 
 .About .row .content h3{
-    font-size: 3rem;
+    font-size: 5rem;
     color: #333;
 }
 
@@ -193,6 +206,8 @@ header .fa-bars{
     padding-top: 1rem;
     line-height: 1.5;
 }
+
+/*Styling Icons Section*/
 
 .icons-container{
     background: #eee;
@@ -227,6 +242,8 @@ header .fa-bars{
     color: #555;
     font-size: 1.3rem;
 }
+
+/*Product styling section*/
 
 .products .box-container{
     display: flex;
@@ -321,6 +338,8 @@ header .fa-bars{
     text-decoration: line-through;
 }
 
+/*Styling of review section*/
+
 .review .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -379,6 +398,8 @@ header .fa-bars{
     color: #999;
 }
 
+/*Styling of Contact*/
+
 .contact .row{
     display: flex;
     flex-wrap: wrap-reverse;
@@ -422,6 +443,8 @@ header .fa-bars{
     height: 15rem;
     resize: none;
 }
+
+/*Styling of footer section*/
 
 .footer .box-container{
     display: flex;
